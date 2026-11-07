@@ -1,0 +1,124 @@
+{
+  "id": "theme-kino-diademuertos",
+  "name": "Día de Muertos Kino",
+  "version": "1.0.0",
+  "apiVersion": 18,
+  "icon": "icon.png",
+  "entry": "plugin.js",
+  "description": "Un tema tradicional de Día de Muertos con degradado naranja y una calaverita literaria.",
+  "hosts": [],
+  "categories": [
+    "themes"
+  ],
+  "appThemes": [
+    {
+      "id": "muertos-calavera",
+      "name": {
+        "es": "Calavera",
+        "en": "Skull"
+      },
+      "colors": {
+        "accent": "#E91E63",
+        "onAccent": "#FFFFFF",
+        "background": "#000000",
+        "surface": "#1A0A05",
+        "surfaceHigh": "#2E150B",
+        "railPanel": "#0A0402",
+        "border": "#FF6D00",
+        "textPrimary": "#FFFFFF",
+        "textSecondary": "#FFCCBC"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#000000",
+          "#BF360C"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 16,
+        "channelRadius": 16,
+        "buttonRadius": 24,
+        "chipRadius": 18,
+        "dialogRadius": 20,
+        "inputRadius": 12,
+        "cardBorder": 1,
+        "panelBorder": 1,
+        "dialogBorder": 2
+      },
+      "typography": {
+        "scale": 1.0,
+        "titleScale": 1.05,
+        "bodyScale": 1.0
+      },
+      "motion": {
+        "crossfadeMs": 500,
+        "focusZoom": 1.1,
+        "heroDrift": "on"
+      },
+      "logo": {
+        "wordmark": {
+          "size": [
+            260,
+            80
+          ],
+          "paths": [
+            {
+              "d": "M 10 20 H 20 V 35 L 35 20 H 48 L 30 38 L 48 65 H 35 L 20 45 V 65 H 10 Z M 55 20 H 65 V 65 H 55 Z M 75 65 V 20 H 87 L 100 45 V 20 H 110 V 65 H 98 L 85 40 V 65 Z M 170 20 H 200 V 30 H 190 V 65 H 180 V 30 H 170 Z M 205 20 H 217 L 225 50 L 233 20 H 245 L 230 65 H 220 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M 140 20 C 122 20 118 32 118 42 C 118 52 124 56 128 58 V 65 H 152 V 58 C 156 56 162 52 162 42 C 162 32 158 20 140 20 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M 131 32 C 127 32 125 35 125 38 C 125 41 127 44 131 44 C 135 44 137 41 137 38 C 137 35 135 32 131 32 Z M 149 32 C 145 32 143 35 143 38 C 143 41 145 44 149 44 C 153 44 155 41 155 38 C 155 35 153 32 149 32 Z M 140 46 L 143 51 H 137 Z M 130 58 H 150 V 59 H 130 Z M 133 55 V 65 H 134 V 55 Z M 137 55 V 65 H 138 V 55 Z M 143 55 V 65 H 144 V 55 Z M 147 55 V 65 H 148 V 55 Z",
+              "fill": "#000000"
+            },
+            {
+              "d": "M 140 10 L 142 15 L 140 17 L 138 15 Z M 125 15 L 128 18 L 125 21 L 122 18 Z M 155 15 L 158 18 L 155 21 L 152 18 Z M 140 22 L 142 25 L 140 27 L 138 25 Z",
+              "fill": "#FF9800"
+            }
+          ]
+        },
+        "mark": {
+          "size": [
+            50,
+            70
+          ],
+          "paths": [
+            {
+              "d": "M 25 10 C 7 10 3 22 3 32 C 3 42 9 46 13 48 V 55 H 37 V 48 C 41 46 47 42 47 32 C 47 22 43 10 25 10 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M 16 22 C 12 22 10 25 10 28 C 10 31 12 34 16 34 C 20 34 22 31 22 28 C 22 25 20 22 16 22 Z M 34 22 C 30 22 28 25 28 28 C 28 31 30 34 34 34 C 38 34 40 31 40 28 C 40 25 38 22 34 22 Z M 25 36 L 28 41 H 22 Z M 15 48 H 35 V 49 H 15 Z M 18 45 V 55 H 19 V 45 Z M 22 45 V 55 H 23 V 45 Z M 28 45 V 55 H 29 V 45 Z M 32 45 V 55 H 33 V 45 Z",
+              "fill": "#000000"
+            },
+            {
+              "d": "M 25 0 L 27 5 L 25 7 L 23 5 Z M 10 5 L 13 8 L 10 11 L 7 8 Z M 40 5 L 43 8 L 40 11 L 37 8 Z M 25 12 L 27 15 L 25 17 L 23 15 Z",
+              "fill": "#FF9800"
+            }
+          ]
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#E91E63",
+            "#9C27B0",
+            "#00897B",
+            "#D84315",
+            "#FBC02D"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 24
+        },
+        "background": true
+      }
+    }
+  ]
+}
