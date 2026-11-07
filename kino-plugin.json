@@ -1,18 +1,18 @@
 {
   "id": "theme-kino-diademuertos",
   "name": "Día de Muertos Kino",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "apiVersion": 18,
   "icon": "icon.png",
   "entry": "plugin.js",
-  "description": "Un tema tradicional de Día de Muertos con degradado naranja y una calaverita literaria.",
+  "description": "Un tema de Día de Muertos con degradado naranja más visible.",
   "hosts": [],
   "categories": [
     "themes"
   ],
   "appThemes": [
     {
-      "id": "muertos-calavera",
+      "id": "muertos-calavera-v2",
       "name": {
         "es": "Calavera",
         "en": "Skull"
@@ -32,7 +32,9 @@
         "type": "gradient",
         "colors": [
           "#000000",
-          "#BF360C"
+          "#3E0F02",
+          "#932405",
+          "#D84315"
         ],
         "angle": 180
       },
